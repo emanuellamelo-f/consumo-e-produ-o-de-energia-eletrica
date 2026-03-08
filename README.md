@@ -1,4 +1,4 @@
-# ⚡ ENERGy Dashboard (Streamlit)
+# ⚡ ENERGYX Dashboard (Streamlit)
 
 Dashboard interativo para **monitoramento energético em tempo real** com Streamlit, incluindo:
 
@@ -138,6 +138,74 @@ streamlit run app.py
 
 Após iniciar, acesse no navegador o endereço local exibido pelo Streamlit (normalmente `http://localhost:8501`).
 
+### Execução no GitHub Codespaces (opcional)
+
+Se abrir o projeto no Codespaces, execute:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+```
+
+---
+
+## 📦 Publicar no GitHub
+
+1. Crie um repositório vazio no GitHub.
+2. No projeto local, execute:
+
+```bash
+git init
+git add .
+git commit -m "feat: initial version of ENERGYX dashboard"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git push -u origin main
+```
+
+3. Confirme no GitHub se os arquivos `app.py`, `pages/`, `requirements.txt` e `README.md` foram enviados.
+
+---
+
+## 🌐 Colocar no ar como site (Streamlit Community Cloud)
+
+Este projeto é Streamlit, então o caminho mais simples para virar site é o Streamlit Community Cloud.
+
+### Pré-requisitos
+
+- Repositório no GitHub com os arquivos do projeto
+- Arquivo principal: `app.py`
+- Dependências em `requirements.txt`
+
+### Passo a passo
+
+1. Acesse https://share.streamlit.io
+2. Faça login com sua conta GitHub.
+3. Clique em **Create app**.
+4. Selecione:
+   - **Repository**: seu repositório
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+5. Clique em **Deploy**.
+
+Em poucos minutos, o app ficará online com uma URL pública no formato:
+
+`https://seu-app.streamlit.app`
+
+### Arquivos já preparados para deploy
+
+- `requirements.txt` (dependências)
+- `runtime.txt` (versão do Python)
+- `.streamlit/config.toml` (configuração de execução)
+- `.github/workflows/ci.yml` (validação automática a cada push/PR)
+
+### Checklist final
+
+- [ ] Repositório publicado no GitHub
+- [ ] Branch principal: `main`
+- [ ] Deploy criado em `share.streamlit.io` apontando para `app.py`
+- [ ] Aplicação abrindo via URL pública
+
 ---
 
 ## 📊 Indicadores presentes no dashboard
@@ -203,6 +271,3 @@ Você pode ajustar facilmente no código:
 ## 👤 Autor
 
 Projeto desenvolvido para fins de monitoramento e estudo de energia elétrica com Streamlit.
-
-
-Se quiser, posso também criar uma versão do README com **badges**, **GIF da interface** e seção de **deploy (Streamlit Community Cloud)**.
