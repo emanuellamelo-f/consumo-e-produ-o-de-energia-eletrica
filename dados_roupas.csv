@@ -1,0 +1,16 @@
+id,produto,categoria,preco,estoque,vendas_diarias,data
+1,Camiseta Básica,Camisetas,29.90,150,12,2026-03-08
+2,Calça Jeans,Calças,89.90,80,5,2026-03-08
+3,Jaqueta de Couro,Jaquetas,199.90,30,2,2026-03-08
+4,Vestido Social,Vestidos,149.90,50,8,2026-03-08
+5,Polo Premium,Camisetas,79.90,120,9,2026-03-08
+6,Bermuda,Shorts,49.90,100,15,2026-03-08
+7,Blusa de Lã,Blusas,99.90,60,6,2026-03-08
+8,Calça Legging,Calças,59.90,140,18,2026-03-08
+9,Cardigan,Casacos,129.90,45,4,2026-03-08
+10,Shorts Jeans,Shorts,54.90,95,11,2026-03-08
+11,Camiseta Estampada,Camisetas,39.90,200,20,2026-03-08
+12,Calça Social,Calças,119.90,70,6,2026-03-08
+13,Jaqueta Impermeável,Jaquetas,249.90,25,1,2026-03-08
+14,Vestido Casual,Vestidos,89.90,85,10,2026-03-08
+15,Blusa Transada,Blusas,69.90,110,14,2026-03-08
