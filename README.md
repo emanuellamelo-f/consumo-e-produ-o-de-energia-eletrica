@@ -1,4 +1,4 @@
-# ⚡ ENERGYX Dashboard (Streamlit)
+# ⚡ ENERGy Dashboard (Streamlit)
 
 Dashboard interativo para **monitoramento energético em tempo real** com Streamlit, incluindo:
 
@@ -203,5 +203,6 @@ Você pode ajustar facilmente no código:
 ## 👤 Autor
 
 Projeto desenvolvido para fins de monitoramento e estudo de energia elétrica com Streamlit.
+
 
 Se quiser, posso também criar uma versão do README com **badges**, **GIF da interface** e seção de **deploy (Streamlit Community Cloud)**.
